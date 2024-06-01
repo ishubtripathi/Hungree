@@ -785,7 +785,13 @@ footer .copyright {
     text-align: center;
     margin-top: 5em;
 }
-
+footer .copyright a{
+    color: rgba(237, 112, 17, 0.639);
+}
+footer .copyright a:hover{
+    color: rgba(237, 182, 17, 0.774);
+    transition: all .3s;
+}
 /* ----------------------
  *  Animation on Scroll
  *-----------------------*/
